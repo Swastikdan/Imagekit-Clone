@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--
-        
+<!--        
 █▀▀ █▀█ █▀▀ ▄▀█ ▀█▀ █▀▀ █▀▄   █▄▄ █▄█
 █▄▄ █▀▄ ██▄ █▀█ ░█░ ██▄ █▄▀   █▄█ ░█░
         
@@ -9,544 +8,446 @@
 ╚█████╗░░╚██╗████╗██╔╝███████║╚█████╗░░░░██║░░░██║█████═╝░  ██║░░██║███████║██╔██╗██║
 ░╚═══██╗░░████╔═████║░██╔══██║░╚═══██╗░░░██║░░░██║██╔═██╗░  ██║░░██║██╔══██║██║╚████║
 ██████╔╝░░╚██╔╝░╚██╔╝░██║░░██║██████╔╝░░░██║░░░██║██║░╚██╗  ██████╔╝██║░░██║██║░╚███║
-╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝╚═╝░░╚═╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝
-   
-
-
+╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝╚═╝░░╚═╝  ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝  
 -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-react-helmet="true">
-      Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM |
-      ImageKit.io
-    </title>
-    <meta
-      data-react-helmet="true"
-      name="description"
-      content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences."
-    />
-    <meta
-      data-react-helmet="true"
-      property="og:title"
-      content="Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM | ImageKit.io"
-    />
-    <meta
-      data-react-helmet="true"
-      property="og:description"
-      content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences."
-    />
-    <meta data-react-helmet="true" property="og:type" content="website" />
-    <meta data-react-helmet="true" name="twitter:card" content="summary" />
-    <meta
-      data-react-helmet="true"
-      name="twitter:creator"
-      content="@imagekitio"
-    />
-    <meta
-      data-react-helmet="true"
-      name="twitter:title"
-      content="Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM"
-    />
-    <meta
-      data-react-helmet="true"
-      name="twitter:description"
-      content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences."
-    />
-    <meta name="theme-color" content="#145fdd" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="/assets/images/icon-512x512.webp"
-    />
-    <link rel="stylesheet" href="/assets/CSS/input.css" />
-    <link rel="stylesheet" href="/tainwindcss.css" />
-    <link
-      rel="stylesheet"
-      href="/node_modules/flowbite/dist/flowbite.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1600px,initial-scale=1">
+    <title data-react-helmet="true">Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM |
+        ImageKit.io</title>
+    <meta data-react-helmet="true" name="description"
+        content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences.">
+    <meta data-react-helmet="true" property="og:title"
+        content="Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM | ImageKit.io">
+    <meta data-react-helmet="true" property="og:description"
+        content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences.">
+    <meta data-react-helmet="true" property="og:type" content="website">
+    <meta data-react-helmet="true" name="twitter:card" content="summary">
+    <meta data-react-helmet="true" name="twitter:creator" content="@imagekitio">
+    <meta data-react-helmet="true" name="twitter:title"
+        content="Image &amp; Video CDN | Dynamic Optimizations, Transformations &amp; DAM">
+    <meta data-react-helmet="true" name="twitter:description"
+        content="Real-time image and video optimizations &amp; transformations with integrated digital asset management &amp; a fast CDN for delivering better media experiences.">
+    <meta name="theme-color" content="#145fdd">
+    <link rel="icon" type="image/png" sizes="512x512"
+        href="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596816/imagekit/icon-512x512_iyfvgy.webp">
+    <link rel="preload" href="style.css" as="style" onload='this.rel="stylesheet"'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="position:fixed;overflow:hidden;width:100%;height:100vh;background:#fff url(https://ik.imagekit.io/swastik/Loading-bar_TtalBxFoK.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1673466899204) no-repeat center;z-index:999"
+        id="loader"></div>
+    <script>var loader = document.getElementById("loader"); window.addEventListener("load", function () { loader.style.display = "none"; });</script>
     <header class="px-40">
-      <nav class="class flex justify-between py-5">
-        <div class="nav_part1 flex content-center">
-          <div class="main_logo-image">
-            <a href="/"
-              ><img
-                src="/assets/images/logo-main-homepage.svg"
-                alt=""
-                width="158px"
-            /></a>
-          </div>
-          <div class="mega_menu pl-16">
-            <!-- Product Use Cases Pricing Customers Resources Developers -->
-
-            <ul class="flex content-center space-x-5">
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Product</a
-                >
-              </li>
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Use Cases</a
-                >
-              </li>
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Pricing</a
-                >
-              </li>
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Customers</a
-                >
-              </li>
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Resources</a
-                >
-              </li>
-              <li>
-                <a
-                  id="navtext"
-                  class="text-base font-semibold text-gray-600"
-                  href=""
-                  >Developers</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="nav_part2 flex content-center space-x-3">
-          <button
-            class="bg-[#D4E6FC] text-base font-semibold text-[#3274E2] px-8 py-2 rounded-full"
-          >
-            <a class="" href="">Login</a>
-          </button>
-          <button
-            class="bg-[#3274E2] text-base font-semibold text-[#ebeff4] px-8 py-2 rounded-full"
-          >
-            <a class="" href="">Sign Up</a>
-          </button>
-        </div>
-      </nav>
-      <section class="hero_page flex flex-col py-16">
-        <div
-          class="hero_page_text-video flex flex-row justify-between items-center"
-        >
-          <div class="text">
-            <div class="text_wraper block w-auto space-y-8">
-              <p class="text-black text-5xl font-semibold">
-                Streamline how you work <br />
-                with images and videos
-              </p>
-
-              <p class="text-2xl font-medium text-gray-600">
-                ImageKit's real-time image and video optimizations,<br />transformations,
-                and digital asset management<br />
-                help developers and marketers deliver better<br />
-                visual experiences on the web.
-              </p>
+        <nav class="class flex justify-between py-5">
+            <div class="nav_part1 flex content-center">
+                <div class="main_logo-image"><a href="/"><img
+                            src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596816/imagekit/logo-main-homepage_nda2ok.svg"
+                            alt="" width="158px"></a></div>
+                <div class="mega_menu pl-16">
+                    <ul class="flex content-center space-x-5">
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Product</a></li>
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Use Cases</a></li>
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Pricing</a></li>
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Customers</a></li>
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Resources</a></li>
+                        <li><a id="navtext" class="text-base font-semibold text-gray-600 hover:text-[#145fde]"
+                                href="">Developers</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="video">
-            <video
-              width="495px"
-              src="https://ik.imagekit.io/ikmedia/New_website_graphics/Homepage/hero_graphic_XRNUZONjx.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1653220585411"
-              loop
-              autoplay
-            ></video>
-          </div>
-        </div>
-        <div class="hero_page_buttons space-x-3">
-          <button
-            class="bg-[#3274E2] text-base font-semibold text-[#ebeff4] px-8 py-3 rounded-full"
-          >
-            <a class="" href="">GET STARTED FOR FREE</a>
-          </button>
-          <button
-            class="bg-[#D4E6FC] text-base font-semibold text-[#3274E2] px-8 py-3 rounded-full"
-          >
-            <a class="" href="">TALK TO US</a>
-          </button>
-        </div>
-      </section>
+            <div class="nav_part2 flex content-center space-x-3"><button
+                    class="bg-[#D4E6FC] text-base font-semibold text-[#3274E2] px-8 py-2 rounded-full"><a class=""
+                        href="">Login</a></button><button
+                    class="bg-[#3274E2] text-base font-semibold text-[#ebeff4] px-8 py-2 rounded-full"><a class=""
+                        href="">Sign Up</a></button></div>
+        </nav>
+        <section class="hero_page flex flex-col py-16">
+            <div class="hero_page_text-video flex flex-row justify-between items-center">
+                <div class="text">
+                    <div class="text_wraper block w-auto space-y-8">
+                        <p class="text-black text-5xl font-semibold">Streamline how you work<br>with images and videos
+                        </p>
+                        <p class="text-2xl font-medium text-gray-600">ImageKit's real-time image and video
+                            optimizations,<br>transformations, and digital asset management<br>help developers and
+                            marketers deliver better<br>visual experiences on the web.</p>
+                    </div>
+                </div>
+                <div class="video"><video width="495px" loading="lazy" autoplay loop>
+                        <source
+                            src="https://res.cloudinary.com/dytlajwyl/video/upload/v1664596829/imagekit/hero_graphic_main-homepage_qahwr6.webm"
+                            type="video/webm">
+                    </video></div>
+            </div>
+            <div class="hero_page_buttons space-x-3"><button
+                    class="bg-[#3274E2] text-base font-semibold text-[#ebeff4] px-8 py-3 rounded-full"><a class=""
+                        href="">GET STARTED FOR FREE</a></button><button
+                    class="bg-[#D4E6FC] text-base font-semibold text-[#3274E2] px-8 py-3 rounded-full"><a class=""
+                        href="">TALK TO US</a></button></div>
+        </section>
     </header>
-
-    <section
-      class="company bg-[#F3F8FF] py-16 px-44 flex flex-col justify-center content-center items-center"
-    >
-      <div class="text-com flex text-2xl font-semibold">
-        <p class="text-gray-600">Over ‎</p>
-        <p class="text-[#3274E2]">1,000 businesses</p>
-        <p class="text-gray-600">‎ and ‎</p>
-        <p class="text-[#3274E2]">70,000 developers ‎</p>
-        <p class="text-gray-600">
-          trust ImageKit with their images and videos on the web
-        </p>
-      </div>
-      <div class="company_img flex space-x-12 py-10">
-        <img
-          id="company_img"
-          src="/assets/images/Cred_120_45_smnVWQmxd.webp"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-        <img
-          id="company_img"
-          src="/assets/images/big-basket-logo_61DxaCJHw.webp"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-        <img
-          id="company_img"
-          src="/assets/images/Lenskart_120_45_hid-CswV4.webp"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-        <img
-          id="company_img"
-          src="/assets/images/nykaa-logo_pOBWO_gI3.svg"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-        <img
-          id="company_img"
-          src="/assets/images/Weltbild_35UAV1_zCJ.webp"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-        <img
-          id="company_img"
-          src="/assets/images/upgrad_unBUjAeLG.webp"
-          width="120px"
-          height="29px"
-          alt=""
-        />
-      </div>
-      <hr />
-
-      <div class="rating_image flex space-x-12 py-10">
-        <div class="img1_rating flex items-center">
-          <img
-            src="/assets/images/capterra_2x_removebg_OYZP5soEv.webp"
-            width="85px"
-            alt=""
-          />
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 536 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z"
-            ></path>
-          </svg>
+    <section class="company bg-[#F3F8FF] py-16 px-44 flex flex-col justify-center content-center items-center">
+        <div class="text-com flex text-2xl font-semibold">
+            <p class="text-gray-600">Over ‎</p>
+            <p class="text-[#0650cd]">1,000 businesses</p>
+            <p class="text-gray-600">‎ and ‎</p>
+            <p class="text-[#0650cd]">70,000 developers ‎</p>
+            <p class="text-gray-600">trust ImageKit with their images and videos on the web</p>
         </div>
-        <div class="img2_rating flex items-center">
-          <img
-            src="/assets/images/g2_2x_removebg_1NTHomu0aH.webp"
-            width="85px"
-            alt=""
-          />
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 536 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z"
-            ></path>
-          </svg>
+        <div class="company_img flex space-x-12 py-10"><img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/Cred_120_45_smnVWQmxd_wj9yrk.webp"
+                width="120px" alt="" loading="lazy"> <img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/big-basket-logo_61DxaCJHw_q84deh.webp"
+                width="120px" alt="" loading="lazy"> <img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596814/imagekit/Lenskart_120_45_hid-CswV4_ug2pt8.webp"
+                width="120px" alt="" loading="lazy"> <img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596816/imagekit/nykaa-logo_pOBWO_gI3_rjin7z.svg"
+                width="120px" alt="" loading="lazy"> <img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596825/imagekit/Weltbild_35UAV1_zCJ_sgxghx.webp"
+                width="120px" alt="" loading="lazy"> <img id="company_img"
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596818/imagekit/upgrad_unBUjAeLG_rljdqa.webp"
+                width="120px" h alt="" loading="lazy"></div>
+        <hr>
+        <div class="rating_image flex space-x-12 py-10">
+            <div class="img1_rating flex items-center"><img
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/capterra_2x_removebg_OYZP5soEv_pljuk5.webp"
+                    width="85px" alt="" loading="lazy"><svg id="rating" stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 576 512" class="rating-icon filled" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 536 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
+                    </path>
+                </svg></div>
+            <div class="img2_rating flex items-center"><img
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596814/imagekit/g2_2x_removebg_1NTHomu0aH_gx9knh.webp"
+                    width="85px" alt=""><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 576 512" class="rating-icon filled" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 536 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
+                    </path>
+                </svg></div>
+            <div class="img3_rating flex items-center"><img
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596814/imagekit/getapp_2x_removebg_u4H7UfPKy_tzuh5s.webp"
+                    width="85px" alt="" loading="lazy"><svg id="rating" stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 576 512" class="rating-icon filled" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                    </path>
+                </svg><svg id="rating" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 536 512"
+                    class="rating-icon filled" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
+                    </path>
+                </svg></div>
         </div>
-        <div class="img3_rating flex items-center">
-          <img
-            src="/assets/images/getapp_2x_removebg_u4H7UfPKy.webp"
-            width="85px"
-            alt=""
-          />
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 576 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-            ></path>
-          </svg>
-          <svg
-            id="rating"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 536 512"
-            class="rating-icon filled"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z"
-            ></path>
-          </svg>
-        </div>
-      </div>
     </section>
-
-    <section class="py-16 px-44">
-<div class="maintext flex flex-col pt-14">
-    <span class="title text-5xl font-semibold">
-        Improve core web vitals for better <br> UX and SEO
-    </span>
-    <span class="para text-2xl font-medium text-gray-600">
-        Automatic optimization for image and video delivery for your <br> users to reduce page weight and improve Lighthouse scores
-    </span>
-</div>
-
-<div class="text-image flex  pt-12 justify-between">
-    <div class="text">
-
-  <div class="text1 flex flex-col bg-[#F3F8FF] px-8 py-5 space-y-3 ">
-
-    <span class=" text-[21px] font-semibold " >Convert images & videos to the right format</span>
-    <span class=" text-base text-gray-600 font-medium" >Automatic format support detection and content analysis to select <br> the best output format like WebP, AVIF, MP4, and WebM.</span>
-  </div>
-  <div class="text2 flex flex-col px-8 py-5 space-y-3 pt-12 ">
-    <span class=" text-[21px] font-semibold" > Compress while maintaining quality </span>
-    <span class=" text-base text-gray-600 font-medium" > Over 30% smaller files that still look as sharp as the original <br> content on all devices.</span>
-</div>
-<div class="text3 flex flex-col px-8 py-5 space-y-3 pt-12">
-    <span class=" text-[21px] font-semibold" >Stream videos for faster playback</span>
-    <span class=" text-base text-gray-600 font-medium" >Adaptive bitrate streaming in near real-time with HLS and DASH <br> protocols for a smooth viewing experience.</span>
-</div>
-<div class="text4 flex flex-col px-8 py-5 space-y-3 pt-12">
-    <span class=" text-[21px] font-semibold" >Improve response times globally</span>
-    <span class=" text-base text-gray-600 font-medium" >Integrated CDN and a multi-region processing network for sub-50 <br> millisecond load time for all your users.</span>
-</div>
-
-    </div  >
-<div class=" space-y-2 font-semibold">
-<img  width="500px" src="/assets/images/Convert_images___videos_to_the_right_format-01_WueVhfcMG.webp" loading="lazy" alt="">
-<div class="flex items-center cursor-pointer space-x-3 "><span class="text-[#0450D5]">Image Optimization</span> <img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII=" data-ll-status="loaded"> </div>
-<div class="flex items-center cursor-pointer space-x-3 "><span class="text-[#0450D5]" >Video Optimization</span> <img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII=" data-ll-status="loaded"> </div>
-
-
-
-</div>
-</div>
+    <section class="py-16 px-52">
+        <div class="maintext flex flex-col pt-14"><span class="title text-5xl font-semibold">Improve core web vitals for
+                better<br>UX and SEO</span><span class="para text-2xl font-medium text-gray-600 pt-6">Automatic
+                optimization for image and video delivery for your<br>users to reduce page weight and improve Lighthouse
+                scores</span></div>
+        <div class="text-image flex pt-12 justify-between">
+            <div class="text">
+                <div class="text1 flex flex-col bg-[#F3F8FF] px-8 py-5 space-y-3"><span
+                        class="text-[21px] font-semibold">Convert images & videos to the right format</span><span
+                        class="text-base text-gray-600 font-medium">Automatic format support detection and content
+                        analysis to select<br>the best output format like WebP, AVIF, MP4, and WebM.</span></div>
+                <div class="text2 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Compress while maintaining quality</span><span
+                        class="text-base text-gray-600 font-medium">Over 30% smaller files that still look as sharp as
+                        the original<br>content on all devices.</span></div>
+                <div class="text3 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Stream videos for faster playback</span><span
+                        class="text-base text-gray-600 font-medium">Adaptive bitrate streaming in near real-time with
+                        HLS and DASH<br>protocols for a smooth viewing experience.</span></div>
+                <div class="text4 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Improve response times globally</span><span
+                        class="text-base text-gray-600 font-medium">Integrated CDN and a multi-region processing network
+                        for sub-50<br>millisecond load time for all your users.</span></div>
+            </div>
+            <div class="space-y-2 font-semibold mb-16"><img class="my-4" width="500px"
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/Convert_images___videos_to_the_right_format-01_WueVhfcMG_ec3m0f.webp"
+                    loading="lazy" alt="">
+                <div class="flex items-center cursor-pointer space-x-3"><span class="text-[#0450D5] underline">Image
+                        Optimization</span><img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII="
+                        data-ll-status="loaded"></div>
+                <div class="flex items-center cursor-pointer space-x-3"><span class="text-[#0450D5] underline">Video
+                        Optimization</span><img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII="
+                        data-ll-status="loaded"></div>
+            </div>
+        </div>
     </section>
-  </body>
+    <section class="bg-[#F3F8FF] py-16 px-52">
+        <div class="maintext flex flex-col pt-14"><span class="title text-5xl font-semibold">Simplify development
+                workflow for<br>images and videos</span><span
+                class="para text-2xl font-medium text-gray-600 pt-6">Real-time, URL-based image and video manipulation
+                APIs to<br>deliver high-quality experiences to users across devices</span></div>
+        <div class="text-image flex pt-12 justify-between">
+            <div class="space-y-2 font-semibold mb-16"><video loop autoplay width="500"
+                    class="block rounded-2xl shadow-md shadow-[#0450D5]" loading="lazy">
+                    <source
+                        src="https://res.cloudinary.com/dytlajwyl/video/upload/v1664596822/imagekit/Crop_Video_XQfez-8wxOo_w8dzsu.webm"
+                        type="video/webm">
+                </video>
+                <div class="flex items-center cursor-pointer space-x-3"><span class="text-[#0450D5] underline">Image
+                        Transformation</span><img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII="
+                        data-ll-status="loaded"></div>
+                <div class="flex items-center cursor-pointer space-x-3"><span class="text-[#0450D5] underline">Video
+                        Transformation</span><img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII="
+                        data-ll-status="loaded"></div>
+            </div>
+            <div class="text">
+                <div class="text1 flex flex-col bg-white px-8 py-5 space-y-3"><span
+                        class="text-[21px] font-semibold">Resize and crop assets in real-time</span><span
+                        class="text-base text-gray-600 font-medium">Height, width, smart crop, aspect ratio, and DPR
+                        transforms to<br>deliver responsive images and videos across devices.</span></div>
+                <div class="text2 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Customize images and videos at scale</span><span
+                        class="text-base text-gray-600 font-medium">Watermarks, text overlays, and over 40 other
+                        real-time<br>transformations to modify your visuals exactly as you like.</span></div>
+                <div class="text3 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Create better image & video thumbnails</span><span
+                        class="text-base text-gray-600 font-medium">Content-aware smart cropping and face detection
+                        algorithms to<br>create attention-grabbing thumbnails.</span></div>
+                <div class="text4 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Integrate with your tech stack</span><span
+                        class="text-base text-gray-600 font-medium">Setup with popular cloud providers, native SDKs, and
+                        APIs to ease<br>file delivery and uploads on websites and apps.</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 px-52 pb-28">
+        <div class="maintext flex flex-col pt-14"><span class="title text-5xl font-semibold">Align teams to unlock
+                rapid<br>business growth</span><span class="para text-2xl font-medium text-gray-600 pt-6">A complete
+                digital asset management solution to store, manage,<br>search and collaborate on images, videos, and
+                other digital<br>content</span></div>
+        <div class="text-image flex pt-12 justify-between">
+            <div class="text">
+                <div class="text1 flex flex-col bg-[#F3F8FF] px-8 py-5 space-y-3"><span
+                        class="text-[21px] font-semibold">Upload and manage all assets in one place</span><span
+                        class="text-base text-gray-600 font-medium">An intuitive user interface to upload, copy, move
+                        and delete<br>multiple files and folders and centralize your digital assets.</span></div>
+                <div class="text2 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Leverage AI for better organization and searchty</span><span
+                        class="text-base text-gray-600 font-medium">Custom metadata, AI-powered asset tagging, and more
+                        to make<br>organization and retrieval suitable for your business.</span></div>
+                <div class="text3 flex flex-col px-8 py-5 space-y-3 pt-12"><span
+                        class="text-[21px] font-semibold">Collaborate from creation to distribution</span><span
+                        class="text-base text-gray-600 font-medium">Ready-to-use asset URLs, in-built media editing, and
+                        feedback via<br>comments to ease cross-functional collaboration.</span></div>
+                <div class="text4 flex flex-col px-8 py-5 space-y-3 pt-12"><span class="text-[21px] font-semibold">Embed
+                        into your current platforms</span><span class="text-base text-gray-600 font-medium">Integration
+                        with Magento and an embeddable, fully-featured UI to<br>bring Digital Asset Management to your
+                        team</span></div>
+            </div>
+            <div class="space-y-2 font-semibold mb-16"><video loop autoplay width="500"
+                    class="block rounded-2xl drop-shadow-2xl shadow-md shadow-[#0450D5]" loading="lazy">
+                    <source
+                        src="https://res.cloudinary.com/dytlajwyl/video/upload/v1664596814/imagekit/Drag_and_drop_interface_D5vN0PtFN_kkwy7o.webm"
+                        type="video/webm">
+                </video>
+                <div class="flex items-center cursor-pointer space-x-3"><span class="text-[#0450D5] underline">Learn
+                        more</span><img width="12px" height="12px" class="ws-lazy-load loaded" loading="lazy"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADhSURBVHgBzVLRDYIwEL2W6rcj8E9McAJxg45QNnADcQQnEDfoBsYJNDGETx3BbwXqUULaFAPEH31Jk7vevcf1HQC/BmkDj2c3THyrkL5kEAM/zxhMj3gV2sRCBppLLYKvkIQnbg496IJcPAp4rjC6fJqAOfmplEHa6UIR4LkEqEK3RGEEGM83SE4w3LmTDAoYcrXFd6/d59Dx5HmiL40nTQ/0oqidNuQWtSfdr2UKVylgAIxfownP9m0+ykQbuN563eJrgc5ETr70eD5AKSPrBzYCCsidgBLouOgXILoX/gZvVoVN2zgQuf8AAAAASUVORK5CYII="
+                        data-ll-status="loaded"></div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#F3F8FF] py-16 px-44 pb-28">
+        <div class="text flex justify-between">
+            <div class="text-[46px] font-semibold"><span class="flex">
+                    <p class="text-[#0450D5]">No-code integration ‎</p>
+                    <p>with</p>
+                </span><span>your infrastructure</span></div>
+            <div class="textpara text-2xl font-medium text-gray-600">ImageKit offers an integrated Media Library
+                and<br>AWS CDN. Optionally, use it with any cloud storage,<br>web server, domain name, or CDN to
+                instantly<br>deliver perfect images and videos without writing a<br>single line of code.</div>
+        </div><video autoplay loop loading="lazy">
+            <source
+                src="https://res.cloudinary.com/dytlajwyl/video/upload/v1664596816/imagekit/external_storage_2_5VlBtITuQC_ridsl9.webm"
+                type="video/webm">
+        </video>
+    </section>
+    <section class="bg-[#F3F8FF] pb-16">
+        <div class="flex flex-col space-y-4 bg-white ml-[150px] pl-[150px] rounded-l-full py-28 pr-24"><span
+                class="flex text-sm font-semibold">
+                <p>SERVING STARTUPS TO ENTERPRISES ‎</p>
+                <p class="text-[#0450D5]">IN OVER 60 COUNTRIES</p>
+            </span><span class="text-5xl font-bold">Optimized bandwidth consumption by 25%</span><span
+                class="text-2xl text-gray-600">Customer experience is of paramount importance at BigBasket. We looked to
+                solve image<br>optimization and delivery as a part of our experience optimization exercise across
+                BigBasket's<br>apps and website. While we were looking at other tools in the market and deliberating on
+                building a<br>solution internally, ImageKit came in just at the right time. It solved our main concerns
+                - excellent<br>performance and optimization, the right visual quality, an almost zero-effort
+                integration, and great<br>pricing. We didn't have to think of any other alternative after going through
+                ImageKit's demo.</span>
+            <div class="flex justify-between pr-20 text-lg">
+                <div><span class="font-semibold">Rupesh Kumar</span>,<span class="text-gray-600">Director of
+                        Engineering, BigBasket</span></div>
+                <div><a class="text-[#0450D5]" href="#" target="_blank">READ FULL STORY</a></div>
+            </div>
+            <div class="avat_arr flex justify-between pt-16">
+                <div class="avatar flex space-x-10"><img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596819/imagekit/avatar/1.rupesh-kumar_NvSK2grvp_a2osql.webp"
+                        alt="" loading="lazy"
+                        class="rounded-full h-20 w-20 bg-yellow-300 ring-4 ring-[#0450D5] ring-offset-4"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596811/imagekit/avatar/2.sanjay_suri_AzIfFUrReP_mo803a.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-gray-600"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596810/imagekit/avatar/3.Hubert_Ried_zSvQGnSvN_nuowzn.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-blue-600"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596811/imagekit/avatar/4.Vijay-Mendiratta_ANH0g8blV_j5jduh.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-pink-700"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596811/imagekit/avatar/5.Bharanidharan_Viswanathan_Yi2XVFd32_wojjgn.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-blue-200"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/avatar/6.Davide_Ciambelli_copy_Fxk3Pj0dJ_uj8njy.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-yellow-300"> <img
+                        src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596811/imagekit/avatar/7.Suyash_Katyayani_Gh0IVxPHDP_mbj1el.webp"
+                        alt="" loading="lazy" class="cursor-pointer rounded-full h-20 w-20 bg-gray-600"></div>
+                <div class="arr flex space-x-4">
+                    <div class="bg-[#F3F8FF] cursor-pointer rounded-full p-7"><img
+                            src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596812/imagekit/back_arrow_vlzcw2ewEa_aohgv2.webp"
+                            alt="" loading="lazy" class="h-7"></div>
+                    <div class="bg-[#F3F8FF] cursor-pointer rounded-full p-7"><img
+                            src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596813/imagekit/fwd_arrow_epff--oEz_rfsay5.webp"
+                            alt="" loading="lazy" class="h-7"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#1e2631] py-20 px-52">
+        <div class="part1 flex justify-between pb-20"><span class="text-white text-[43px] font-bold">Ready to improve
+                how you<br>work with images & videos?</span>
+            <div class="btns space-x-3 flex items-center"><button
+                    class="bg-[#3274E2] text-base font-semibold text-[#ebeff4] px-8 py-3 rounded-full"><a class=""
+                        href="">GET STARTED FOR FREE</a></button><button
+                    class="bg-[#D4E6FC] text-base font-semibold text-[#3274E2] px-8 py-3 rounded-full"><a class=""
+                        href="">TALK TO US</a></button></div>
+        </div>
+        <hr>
+        <div class="part2 flex py-16 justify-between"><img
+                src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664596818/imagekit/imagekit_white_logo_2x_qSU--bCEr_pwyc6m.webp"
+                width="158" class="" alt="" loading="lazy">
+            <div class="flex"><img
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664612916/imagekit/gdpr_ready_eVyJexl_y_qgunpe.webp"
+                    alt="" loading="lazy" width="60"> <img
+                    src="https://res.cloudinary.com/dytlajwyl/image/upload/v1664612944/imagekit/iso-27001-badge_-pxQ1X8IL_au6rhr.webp"
+                    alt="" loading="lazy" width="60"></div>
+        </div>
+        <div class="part3 flex justify-between">
+            <div class="col1 flex flex-col space-y-3"><span
+                    class="text-[#A5A9AD] font-semibold pb-5">PRODUCT</span><span class="text-sm text-white">Image
+                    Optimization</span><span class="text-sm text-white">Video Optimization</span><span
+                    class="text-sm text-white">Image Transformation</span><span class="text-sm text-white">Video
+                    Transformation</span><span class="text-sm text-white">Digital Asset Management (DAM)</span><span
+                    class="text-sm text-white">DAM Advanced Features</span><span
+                    class="text-sm text-white">Analytics</span><span class="text-sm text-white">Delivery and Processing
+                    Network</span><span class="text-sm text-white">External Storage Integrations</span><span
+                    class="text-sm text-white">Performance Monitoring</span></div>
+            <div class="col2 flex flex-col space-y-3"><span class="text-[#A5A9AD] font-semibold pb-5">USE
+                    CASES</span><span class="text-sm text-white">Image Optimization</span><span
+                    class="text-sm text-white">Video API</span><span class="text-sm text-white">Thumbnail
+                    Creation</span><span class="text-sm text-white">Adaptive Bitrate Streaming</span><span
+                    class="text-sm text-white">Content-aware Smart Cropping</span><span class="text-sm text-white">Media
+                    Upload and Management</span><span class="text-sm text-white">Advanced File Search</span><span
+                    class="text-sm text-white">Web Performance and SEO</span><span class="text-sm text-white">Email
+                    Marketing Banners</span><span class="text-sm text-white">Secure File Access</span></div>
+            <div class="col3 flex flex-col space-y-3"><span
+                    class="text-[#A5A9AD] font-semibold pb-5">RESOURCES</span><span
+                    class="text-sm text-white">Pricing</span><span class="text-sm text-white">Customers</span><span
+                    class="text-sm text-white">Website Analyzer</span><span class="text-sm text-white">Blogs</span><span
+                    class="text-sm text-white">Webinars</span><span class="text-sm text-white">Documentation</span><span
+                    class="text-sm text-white">Terms</span><span class="text-sm text-white">Privacy Policy</span><span
+                    class="text-sm text-white">GDPR Policy</span><span class="text-sm text-white">Security and
+                    Trust</span></div>
+            <div class="col4 flex flex-col space-y-3"><span
+                    class="text-[#A5A9AD] font-semibold pb-5">COMPARISON</span><span class="text-sm text-white">Imagekit
+                    vs Imgix</span><span class="text-sm text-white">Imagekit vs Cloudinary</span><span
+                    class="text-sm text-white">Imagekit vs Sirv</span><span class="text-sm text-white">Imagekit vs
+                    ImageEngine</span></div>
+            <div class="address flex flex-col space-y-3"><span
+                    class="text-[#A5A9AD] font-semibold pb-5">CONTACT</span><span class="text-sm text-white">Contact
+                    Us</span><span class="text-sm text-white">support@imagekit.io</span><span
+                    class="text-sm text-white">India office</span><span class="text-sm text-white">ImageKit Private
+                    Limited<br>Caddie Commercial<br>Tower5th floor, Aerocity,<br>New Delhi, Delhi
+                    110037,<br>India</span><span class="text-sm text-white">US office</span><span
+                    class="text-sm text-white">ImageKit Inc<br>Christiana Corporate<br>Business Center,
+                    200<br>Continental Drive, Suite 401,<br>Newark, DE, 19713, USA</span></div>
+        </div>
+        <div style="text-align:center;margin-top:40px;color:rgba(255,255,255,.6)">Copyright © ImageKit Private Limited
+            2022</div>
+    </footer>
+</body>
+
 </html>
