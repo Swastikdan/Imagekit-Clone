@@ -18,7 +18,7 @@ git clone https://github.com/Swastikdan/Imagekit-Clone.git
 cd Imagekit-Clone
 open index.html
 ```
-You can also view the live demo of the project [here](https://test-site.swastikdan.tech/).
+You can also view the live demo of the project [here](https://imagekit-clone.projects.swastikdan.tech/).
 
 ## Dependencies
 This project uses Tailwind CSS for styling
